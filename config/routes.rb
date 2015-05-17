@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     get "about" => 'main#about' 
     get "contact" => 'main#contact' 
     get "services" => 'main#services' 
-    get "testimonials" => 'main#restimonials' 
+    get "testimonials" => 'main#testimonials' 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
