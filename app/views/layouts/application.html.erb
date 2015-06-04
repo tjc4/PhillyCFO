@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
+	
 	<head>
-	  <title>Phillycfo</title>
+	  <title>Thomas J. Coffey, CPA</title>
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	  <%= csrf_meta_tags %>
 	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="http://getbootstrap.com/examples/carousel/carousel.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1"> <%# makes responsive work on mobile %>
-
+		<meta name="description" content="Thomas J. Coffey, CPA is a part-time and transactional CFO for hire.  He has over thirty years experience including time as partner at a big four accounting firm, CFO of a public company, worldwide divisional CFO of a global technology company, Board Member and Chair of the Audit Committee for a public company.">
+		<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+		<meta name="author" content="Thomas J. Coffey">
 	</head>
+	
 	<body>
 		<%= render 'layouts/header' %> <%# says render file layouts/_header.html.erb %>
 		<div class="container">
@@ -18,6 +23,6 @@
 			<% end %>
 			<%= yield %>
 		</div>
-
 	</body>
+
 </html>
