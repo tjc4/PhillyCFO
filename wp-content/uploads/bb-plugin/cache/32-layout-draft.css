@@ -159,12 +159,66 @@ img.mfp-img {padding: 0;}
 	.fl-row[data-node] .fl-bg-video, .fl-row[data-node] .fl-bg-slideshow {left: 0;right: 0;}
 	.fl-col[data-node] .fl-col-content {margin: 0;padding-left: 0;padding-right: 0;}}
 .page .fl-post-header, .single-fl-builder-template .fl-post-header {display: none;}
+.fl-node-5f3f8845246bf .fl-bg-video-audio {display: none;cursor: pointer;position: absolute;bottom: 20px;right: 20px;z-index: 5;width: 20px;}
+.fl-node-5f3f8845246bf .fl-bg-video-audio .fl-audio-control {font-size: 20px;}
+.fl-node-5f3f8845246bf .fl-bg-video-audio .fa-times {font-size: 10px;vertical-align: middle;position: absolute;top: 5px;left: 11px;bottom: 0;}
+.fl-node-5f3f8845246bf > .fl-row-content-wrap {background-color: #fff;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8845246bf > .fl-row-content-wrap {padding-top: 40px;padding-bottom: 40px;}
 .fl-node-5f3b31933e639 .fl-bg-video-audio {display: none;cursor: pointer;position: absolute;bottom: 20px;right: 20px;z-index: 5;width: 20px;}
 .fl-node-5f3b31933e639 .fl-bg-video-audio .fl-audio-control {font-size: 20px;}
 .fl-node-5f3b31933e639 .fl-bg-video-audio .fa-times {font-size: 10px;vertical-align: middle;position: absolute;top: 5px;left: 11px;bottom: 0;}
+.fl-node-5f3b31933e639 > .fl-row-content-wrap {background-color: #f7f7f7;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8885751e9 .fl-bg-video-audio {display: none;cursor: pointer;position: absolute;bottom: 20px;right: 20px;z-index: 5;width: 20px;}
+.fl-node-5f3f8885751e9 .fl-bg-video-audio .fl-audio-control {font-size: 20px;}
+.fl-node-5f3f8885751e9 .fl-bg-video-audio .fa-times {font-size: 10px;vertical-align: middle;position: absolute;top: 5px;left: 11px;bottom: 0;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8885751e9 > .fl-row-content-wrap {margin-top: 0px;margin-bottom: 0px;}
+.fl-node-5f3f8885751e9 > .fl-row-content-wrap {padding-top: 40px;padding-bottom: 40px;}
+.fl-node-5f3f8845246ba {width: 20%;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8845246bb {width: 80%;}
 @media (max-width: 992px) {}
 @media (max-width: 768px) {}
 .fl-node-5f3b3193418ba {width: 100%;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8885751e7 {width: 100%;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+img.mfp-img {padding-bottom: 40px !important;}
+@media (max-width: 768px) {.fl-photo-content {width: 100%;}}
+.fl-node-5f3f8845246bc .fl-photo {text-align: center;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-module-heading .fl-heading {padding: 0 !important;margin: 0 !important;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8845246bd > .fl-module-content {margin-bottom: 0px;}
+.fl-node-5f3f8845246be .fl-rich-text strong {font-weight: bold;}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-cta-left {text-align: left;}
+.fl-cta-center {text-align: center;}
+.fl-cta-right {text-align: right;}
+.fl-cta-inline {display: table;width: 100%;}
+.fl-cta-inline .fl-cta-text, .fl-cta-inline .fl-cta-button {display: table-cell;vertical-align: middle;}
+.fl-cta-inline .fl-cta-text {width: 70%;}
+.fl-cta-inline .fl-cta-button {padding-left: 30px;text-align: center;width: 30%;}
+body h1.fl-cta-title, body h2.fl-cta-title, body h3.fl-cta-title, body h4.fl-cta-title, body h5.fl-cta-title, body h6.fl-cta-title {margin: 0;padding: 0 0 10px 0;}
+.fl-cta-stacked .fl-cta-button {padding-top: 20px;}
+@media (max-width: 768px) {.fl-cta-inline {display: block;text-align: center;}
+	.fl-cta-inline .fl-cta-text, .fl-cta-inline .fl-cta-button {display: block;}
+	.fl-cta-inline .fl-cta-text {width: auto;}
+	.fl-cta-inline .fl-cta-button {padding-left: 0;padding-top: 20px;width: auto;}}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+.fl-node-5f3f8885751e8 .fl-module-content {padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}
 @media (max-width: 992px) {}
 @media (max-width: 768px) {}
 .fl-animated.fl-bounce-down {animation: fl-bounce-down 1s ease;-webkit-animation: fl-bounce-down 1s ease;}
