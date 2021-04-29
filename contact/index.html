@@ -17,10 +17,10 @@
 <link rel="stylesheet" id="fl-builder-layout-51-css" href="https://phillycfo.com/wp-content/uploads/bb-plugin/cache/51-layout.css" type="text/css" media="all">
 <link rel="stylesheet" id="jquery-magnificpopup-css" href="https://phillycfo.com/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="base-css" href="https://phillycfo.com/wp-content/themes/bb-theme/css/base.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="fl-automator-skin-css" href="https://phillycfo.com/wp-content/uploads/bb-theme/skin-5feba690162ca.css" type="text/css" media="all">
+<link rel="stylesheet" id="fl-automator-skin-css" href="https://phillycfo.com/wp-content/uploads/bb-theme/skin-608a174e2b8a6.css" type="text/css" media="all">
 <link rel="stylesheet" id="fl-child-theme-css" href="https://phillycfo.com/wp-content/themes/bb-theme-child/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="fl-builder-google-fonts-acc23123515e1c178b401390579032fd-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%7CRoboto+Slab%3A400%7COswald%3A400&ver=5.5" type="text/css" media="all">
-<script type="text/javascript" src="https://phillycfo.com/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<link rel="stylesheet" id="fl-builder-google-fonts-acc23123515e1c178b401390579032fd-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%7CRoboto+Slab%3A400%7COswald%3A400&ver=5.5.4" type="text/css" media="all">
+<script type="text/javascript" src="https://phillycfo.com/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
 
 
 
@@ -69,7 +69,7 @@
 				<div class="col-sm-12 col-md-4 fl-page-header-logo-col">
 					<div class="fl-page-header-logo" itemscope="itemscope" itemtype="https://schema.org/Organization">
 						<a href="https://phillycfo.com/" itemprop="url"><div class="fl-logo-text" itemprop="name">Philly CFO</div></a>
-						<div class="fl-theme-tagline">Part-time CFO serving the Philadelphia area</div>					</div>
+						<div class="fl-theme-tagline">Thomas J. Coffey, Part-Time CFO</div>					</div>
 				</div>
 				<div class="col-sm-12 col-md-8 fl-page-nav-col">
 					<div class="fl-page-nav-wrap">
@@ -130,37 +130,39 @@
 	<div class="fl-col-content fl-node-content">
 	<div class="fl-module fl-module-contact-form fl-node-5f3b35e01c771" data-node="5f3b35e01c771">
 	<div class="fl-module-content fl-node-content">
-		
-		<form class="fl-contact-form" name="contact" method="POST" data-netlify="true">
-			<div class="fl-input-group fl-name">
-			<label for="fl-name">Name</label>
-			<span class="fl-contact-error">Please enter your name.</span>
-			<input type="text" id="fl-name" name="fl-name" value="" placeholder="Your name" />
-			</div>
-			
-			
-			<div class="fl-input-group fl-email">
-			<label for="fl-email">Email</label>
-			<span class="fl-contact-error">Please enter a valid email.</span>
-			<input type="email" id="fl-email" name="fl-email" value="" placeholder="Your email" />
-			</div>
-			
-			
-			<div class="fl-input-group fl-message">
-			<label for="fl-message">Your Message</label>
-			<span class="fl-contact-error">Please enter a message.</span>
-			<textarea id="fl-message" name="fl-message" placeholder="Your message"></textarea>
-			</div>
-		
-			
-			<div class="fl-button-wrap fl-button-width-auto fl-button-left">
-			<button type="submit">Contact Tom</button>
-			</div>
+		<form class="fl-contact-form">
+		<input type="hidden" name="fl-layout-id" value="51">
+
+		<div class="fl-input-group fl-name">
+		<label for="fl-name">Name</label>
+		<span class="fl-contact-error">Please enter your name.</span>
+		<input type="text" id="fl-name" name="fl-name" value="" placeholder="Your name">
+	</div>
+	
+	
+		<div class="fl-input-group fl-email">
+		<label for="fl-email">Email</label>
+		<span class="fl-contact-error">Please enter a valid email.</span>
+		<input type="email" id="fl-email" name="fl-email" value="" placeholder="Your email">
+	</div>
+	
+	
+	<div class="fl-input-group fl-message">
+		<label for="fl-message">Your Message</label>
+		<span class="fl-contact-error">Please enter a message.</span>
+		<textarea id="fl-message" name="fl-message" placeholder="Your message"></textarea>
+	</div>
+
+	
+		<div class="fl-button-wrap fl-button-width-auto fl-button-left">
+			<a href="#" target="_self" class="fl-button" role="button">
+							<span class="fl-button-text">Contact Tom</span>
+					</a>
+</div>
 			<span class="fl-success-none" style="display:none;">Message Sent!</span>
-			<span class="fl-send-error" style="display:none;">Message failed. Please try again.</span>
-		</form>
-
-
+	
+	<span class="fl-send-error" style="display:none;">Message failed. Please try again.</span>
+</form>
 	</div>
 </div>
 	</div>
